@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teleticket</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4, auto);
+            gap: 20px;
+        }
+        .evento {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .evento img {
+            width: 100%; /* Ajusta el ancho de la imagen al contenedor del evento */
+            height: 150px; /* Altura fija para las imágenes */
+            object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+            border-radius: 5px 5px 0 0; /* Para dar esquinas redondeadas solo arriba */
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="teleticket.png" alt="Teleticket Logo"> <!-- Agregando el logo -->
+    </header>
+    <nav>
+        <a href="inicio.html">Inicio</a>
+        <a href="index1.html">Eventos</a>
+        <a href="boletos.html">Boletos</a>
+        <a href="contactos.html">Contacto</a>
+    </nav>
+    <section>
+        <div class="evento">
+            <img src="concierto.jpg" alt="Concierto de Rock">
+            <h3>Concierto de Rock</h3>
+            <p><strong>Fecha:</strong> 15 de mayo de 2024</p>
+            <p><strong>Lugar:</strong> Estadio Nacional</p>
+            <p>¡No te pierdas este increíble concierto de rock con bandas locales e internacionales!</p>
+        </div>
+        <div class="evento">
+            <img src="cine.jpg" alt="Cine">
+            <h3>Festival de Cine</h3>
+            <p><strong>Fecha:</strong> 20-25 de junio de 2024</p>
+            <p><strong>Lugar:</strong> Cineplanet Alcázar</p>
+            <p>Disfruta de una semana llena de las mejores películas del año en nuestro festival de cine.</p>
+        </div>
+        <div class="evento">
+            <img src="esqueleto.gif" alt="Exposición de Arte">
+            <h3>Exposición de Arte</h3>
+            <p><strong>Fecha:</strong> 10-15 de julio de 2024</p>
+            <p><strong>Lugar:</strong> Museo Nacional de Arte</p>
+            <p>Ven y sumérgete en el mundo del arte en nuestra exposición que presenta obras de artistas contemporáneos.</p>
+        </div>
+        <div class="evento">
+            <img src="cocina.jpg" alt="Taller de Cocina">
+            <h3>Taller de Cocina</h3>
+            <p><strong>Fecha:</strong> 5 de agosto de 2024</p>
+            <p><strong>Lugar:</strong> Escuela de Gastronomía "ChefMaster"</p>
+            <p>Aprende nuevas técnicas culinarias y prepara deliciosos platillos en nuestro taller de cocina para aficionados.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Teleticket. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

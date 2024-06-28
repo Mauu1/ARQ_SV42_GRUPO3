@@ -25,6 +25,6 @@ if (!$resultado) {
 
 mysqli_close($connection);
 
-header("Location: index.html");
+header("Location: index1.html");
 exit();
 ?>
